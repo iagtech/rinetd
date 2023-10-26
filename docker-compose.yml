@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+  db:  
+    image: mysql:8.0.19
+    environment:
+      MYSQL_DATABASE: sample
+      MYSQL_USER: sample
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    volumes:
+      - datavolume:/var/lib/mysql
+    restart: unless-stopped
+  db-proxy:
+    image: iagtechllc/rinetd:latest
+    ports:
+      - 3306:3306
+    volumes:
+      - ./rinetd.conf:/etc/rinetd.conf
+    restart: unless-stopped
+volumes:
+  datavolume:
