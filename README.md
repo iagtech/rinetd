@@ -1,4 +1,4 @@
-# IAG Benefits, LLC Maintenance Container (iagllctech/rinetd)
+# IAG Benefits, LLC RINETD (iagllctech/rinetd)
 
 This repository provides rinetd in a container.
 
