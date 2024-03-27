@@ -34,7 +34,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Ethan McGee** - *Initial work* - [bulletshot60](https://github.com/bulletshot60)
+* **Ethan McGee** - *Initial work* - [ethantmcgee](https://github.com/ethantmcgee)
 
 See also the list of [contributors](https://github.com/iagtech/rinetd/contributors) who participated in this project.
 
